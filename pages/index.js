@@ -8,6 +8,7 @@ const IndexPage = (props) => {
     React.useEffect(() => {
         // window is accessible here.
         console.log("window.location", window.location)
+        console.log("document.referrer", document.referrer)
         const myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
         console.log("window.ip", myPeerConnection)
 
