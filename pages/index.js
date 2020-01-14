@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Fetch from "isomorphic-unfetch"
 import Home from '../components/Home'
 import TerritoryOwner from '../components/TerritoryOwner'
 
