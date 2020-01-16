@@ -70,7 +70,7 @@ const IndexPage = (props) => {
 
 IndexPage.getInitialProps = async function(getUserzip) {
     const geo = await getUserZip()
-    const res = await fetch('https://foundationrunner9.com/api/territories/owner/1')
+    const res = await fetch('https://foundationrunner9.com/api/territories/owner/7')
     const owner = await res.json()
     console.log('where is the data from getInitialProps() inside Index', owner)
   
