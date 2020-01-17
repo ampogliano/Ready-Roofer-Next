@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import Fetch from "isomorphic-unfetch"
 import Home from '../components/Home'
 import TerritoryOwner from '../components/TerritoryOwner'
+import Footer from '../components/Footer'
+
 
 const IndexPage = (props) => {
     React.useEffect(() => {
@@ -28,8 +30,15 @@ const IndexPage = (props) => {
                 owner = {props.owner} 
                 />
           </div>
+          <div className="footer">
+            <Footer />
+          </div>
         </Layout>
-        <style jsx>{`
+        <style jsx>{
+        `
+        .footer{
+          margin-top: -5vw;
+        }
 
         `}
         </style>

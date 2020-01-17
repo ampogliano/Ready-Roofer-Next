@@ -74,7 +74,7 @@ class TerritoryOwner extends React.Component {
                 </div>
                 <style jsx>{`
                     .frame {
-                        height: 30vw;
+                        height: 25vw;
                         width: 100%;
                         background-color:#ff9933;
                         opacity: .85;
@@ -84,7 +84,7 @@ class TerritoryOwner extends React.Component {
                     }
                     .clipbox {
                         clip-path: polygon(
-                            25% 100%, /* left bottom*/ 
+                            30% 100%, /* left bottom*/ 
                             75% 0%, /*left top*/
                             100% 0%, /* right top */
                             100% 100% /* right bottom */
